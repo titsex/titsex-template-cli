@@ -9,7 +9,12 @@
         "forceConsistentCasingInFileNames": true,
         "incremental": true,
         "outDir": "./build",
-        "baseUrl": "./src"
+        "baseUrl": "./src",
+        "paths": {
+            "@class/*": ["classes/*"],
+            "@types": ["types"],
+            "@utils": ["utils"]
+        }
     },
     "include": ["./src/**/*"]
 }
