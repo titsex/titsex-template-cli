@@ -11,5 +11,5 @@ CLI for generating custom templates.
 # Usage
 > gtt
 ```
-After using the command, you will need to select a template and a generation path.
+Select a template and a path.
 ```
