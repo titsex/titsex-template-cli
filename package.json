@@ -1,7 +1,7 @@
 {
     "name": "titsex-template-cli",
     "description": "CLI for generating custom templates",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "main": "build/index.js",
     "author": "titsex",
     "license": "MIT",
@@ -9,7 +9,8 @@
         "gtt": "build/index.js"
     },
     "scripts": {
-        "build": "tsc --project ./tsconfig.json && tsc-alias --project ./tsconfig.json"
+        "build": "tsc --project ./tsconfig.json && tsc-alias --project ./tsconfig.json",
+        "template:update": "git submodule update --remote"
     },
     "devDependencies": {
         "@types/node": "^20.10.1",
