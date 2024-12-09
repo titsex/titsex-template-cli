@@ -1,20 +1,20 @@
 {
-    "compilerOptions": {
-        "target": "ESNext",
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
-        "strict": true,
-        "noUnusedLocals": true,
-        "noFallthroughCasesInSwitch": true,
-        "forceConsistentCasingInFileNames": true,
-        "incremental": true,
-        "outDir": "./build",
-        "baseUrl": "./src",
-        "paths": {
-            "@class/*": ["classes/*"],
-            "@types": ["types"],
-            "@utils": ["utils"]
-        }
-    },
-    "include": ["./src/**/*"]
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"strict": true,
+		"noUnusedLocals": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true,
+		"incremental": true,
+		"outDir": "./build",
+		"baseUrl": "./src",
+		"paths": {
+			"@class/*": ["classes/*"],
+			"@types": ["types"],
+			"@utils": ["utils"]
+		}
+	},
+	"include": ["./src/**/*"]
 }

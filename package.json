@@ -1,24 +1,24 @@
 {
-    "name": "titsex-template-cli",
-    "description": "CLI for generating custom templates",
-    "version": "1.4.0",
-    "main": "build/index.js",
-    "author": "titsex",
-    "license": "MIT",
-    "bin": {
-        "gtt": "build/index.js"
-    },
-    "scripts": {
-        "build": "tsc --project ./tsconfig.json && tsc-alias --project ./tsconfig.json",
-        "template:update": "git submodule update --remote"
-    },
-    "devDependencies": {
-        "@biomejs/biome": "^1.9.4",
-        "@types/node": "^22.10.1",
-        "tsc-alias": "^1.8.10",
-        "typescript": "^5.7.2"
-    },
-    "dependencies": {
-        "enquirer": "^2.4.1"
-    }
+	"name": "titsex-template-cli",
+	"description": "CLI for generating custom templates",
+	"version": "1.4.0",
+	"main": "build/index.js",
+	"author": "titsex",
+	"license": "MIT",
+	"bin": {
+		"gtt": "build/index.js"
+	},
+	"scripts": {
+		"build": "tsc --project ./tsconfig.json && tsc-alias --project ./tsconfig.json",
+		"template:update": "git submodule update --remote"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/node": "^22.10.1",
+		"tsc-alias": "^1.8.10",
+		"typescript": "^5.7.2"
+	},
+	"dependencies": {
+		"enquirer": "^2.4.1"
+	}
 }
