@@ -13,10 +13,10 @@
         "template:update": "git submodule update --remote"
     },
     "devDependencies": {
-        "@biomejs/biome": "^1.7.3",
-        "@types/node": "^20.12.11",
-        "tsc-alias": "^1.8.9",
-        "typescript": "^5.4.5"
+        "@biomejs/biome": "^1.9.4",
+        "@types/node": "^22.10.1",
+        "tsc-alias": "^1.8.10",
+        "typescript": "^5.7.2"
     },
     "dependencies": {
         "enquirer": "^2.4.1"
