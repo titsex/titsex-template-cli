@@ -1,7 +1,7 @@
 {
     "name": "titsex-template-cli",
     "description": "CLI for generating custom templates",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "main": "build/index.js",
     "author": "titsex",
     "license": "MIT",
