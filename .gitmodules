@@ -1,3 +1,6 @@
 [submodule "templates/typescript-template"]
 	path = templates/typescript-template
 	url = https://github.com/titsex/typescript-template
+[submodule "templates/pnpm-workspace-template"]
+	path = templates/pnpm-workspace-template
+	url = https://github.com/titsex/pnpm-workspace-template
